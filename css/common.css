@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #0A0908;
+    --secondary-color: #53339D;
+    --third-color: #F2F4F3;
+    --forth-color: #84828F;
+
+}
+
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.arrange-left {
+    float: left;
+}
+
+.wid-25 {
+    width: 25%;
+
+}
+
+.wid-33 {
+    width: 32.5%;
+}
+
+.wid-50 {
+    width: 50%;
+
+}
+
+.wid-75 {
+    width: 75%;
+}
+
+.next-row {
+    clear: both;
+}
+
+.common-btn {
+    height: 40px;
+    padding: 0px 15px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    background-color: #ffff;
+    min-width: 50px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.common-btn span {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.margin-right-5 {
+    margin-right: 5%;
+}
+
+/* RESPONSIVE STYLE */
+
+
+@media screen and (max-width:990px) {
+
+    .wid-25,
+    .wid-50,
+    .wid-75,
+    .wid-33 {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .arrange-left {
+        float: none;
+    }
+
+
+}
